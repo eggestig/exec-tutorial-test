@@ -13,5 +13,9 @@ export default defineConfig({
     }),
     tsconfigPaths(),
   ],
-  base: '/exec-tutorial-test/'
+  base: '/exec-tutorial-test/',
+  build: {
+    outDir: 'dist', // Specify the output directory for your build
+  },
+
 });
