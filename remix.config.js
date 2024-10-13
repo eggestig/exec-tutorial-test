@@ -1,11 +1,8 @@
 /** @type {import('@remix-run/dev').AppConfig} */
-const config = {
-  appDirectory: "app", // Your app directory
-  assetsBuildDirectory: "public/build", // Where to store static assets
-  serverBuildPath: "build/index.js", // Path for server build
-  publicPath: "/exec-tutorial-test/build/", // Public path for serving assets
-  devServerPort: 8002,
-  // Other optional configurations
+module.exports = {
+  ignoredRouteFiles: ["**/.*"],
+  // appDirectory: "app",
+  // assetsBuildDirectory: "public/build",
+  // serverBuildPath: "build/index.js",
+  // publicPath: "/build/",
 };
-
-export default config;
