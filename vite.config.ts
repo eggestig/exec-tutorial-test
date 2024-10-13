@@ -15,7 +15,6 @@ export default defineConfig({
   ],
   base: '/exec-tutorial-test/',
   build: {
-    outDir: 'dist', // Specify the output directory for your build
+    outDir: 'build', // Specify the output directory for your build
   },
-
 });
