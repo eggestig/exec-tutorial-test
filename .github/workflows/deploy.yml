@@ -23,7 +23,7 @@ jobs:
           node-version: '20' # Ensure you're using the correct version
 
       - name: Install Dependencies
-        run: npm install
+        run: npm install --legacy-peer-deps
 
       - name: Run Lint
         run: npm run lint
