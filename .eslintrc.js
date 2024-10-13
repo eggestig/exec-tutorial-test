@@ -5,5 +5,6 @@ module.exports = {
   extends: [`react-app`, `plugin:jest/all`],
   rules: {
     'prefer-const': 'error',
+    'jest/prefer-expect-assertions': 'off',
   },
 };

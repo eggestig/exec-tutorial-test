@@ -8,6 +8,7 @@
     "gatsby"
   ],
   "scripts": {
+    "lint": "eslint src/**/*.{js,jsx,ts,tsx}",
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
